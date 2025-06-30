@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrarse</title>
+  <link rel="stylesheet" href="estilos/styles.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="header">
+      <h1>NeoStyle MARKET</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="products.html">Productos</a></li>
+          <li><a href="cart.html">Carrito</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="registro-container">
+    <h2>Registro de Usuario</h2>
+    
+    <form class="form-register">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required autocomplete="name">
+
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" name="apellido" required autocomplete="name">
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required autocomplete="email">
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required autocomplete="new-password">
+
+      <label for="edad">Fecha de nacimiento:</label>
+      <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+      <button type="submit" class="boton-principal">Registrarse</button>
+    </form>
+
+    <div class="login-opciones">
+      <p>¿Ya tenés cuenta? <a href="login.html">Iniciar sesión</a></p>
+      <p>Iniciar sesion con <a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&hl=en&flowName=GlifWebSignIn&flowEntry=AddSession&dsh=S1948415378%3A1750269896776110">Google</a></p>
+      <a href="index.html" class="volver">← Volver al inicio</a>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="columna">
+      <h3>Envíos y Pagos</h3>
+      <p>Envíos a todo el país con Correo Argentino, Andreani, OCA.</p>
+      <p>Tiempo de entrega estimado: 3 a 7 días hábiles</p>
+      <p>Medios de pago:<br>Visa - MasterCard - MercadoPago</p>
+    </div>
+
+    <div class="columna">
+      <h3>Redes Sociales</h3>
+      <p>Instagram</p>
+      <p>X</p>
+    </div>
+
+    <div class="columna">
+      <h3>Categorías destacadas</h3>
+      <p>Ropa</p>
+      <p>Cosméticos</p>
+      <p>Electrónica</p>
+    </div>
+  </footer>
+
+  <footer class="main-footer-copy">
+    <p>&copy; 2025 NEOSTYLE MARKET. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
